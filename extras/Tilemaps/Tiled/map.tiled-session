@@ -1,0 +1,154 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "untitled.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "C:/Users/Mukesh/AppData/Local/Temp/b2c3b392-d96e-41e3-a1b7-4572d25001c5_tile map[1].zip.1c5/tilesets/TX Plant.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/b2c3b392-d96e-41e3-a1b7-4572d25001c5_tile map[1].zip.1c5/tilesets/TX Props.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/b2c3b392-d96e-41e3-a1b7-4572d25001c5_tile map[1].zip.1c5/tilesets/TX Struct.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/b2c3b392-d96e-41e3-a1b7-4572d25001c5_tile map[1].zip.1c5/tilesets/TX Tileset Grass.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/b2c3b392-d96e-41e3-a1b7-4572d25001c5_tile map[1].zip.1c5/tilesets/TX Tileset Stone Ground.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/b2c3b392-d96e-41e3-a1b7-4572d25001c5_tile map[1].zip.1c5/tilesets/TX Tileset Wall.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/b2c3b392-d96e-41e3-a1b7-4572d25001c5_tile map[1].zip.1c5/untitled.tmx": {
+            "scale": 0.1864375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1601.072745558163,
+                "y": 1601.0727455581632
+            }
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/ee157b35-6db8-4472-ac6c-11d839cf16af_tile map.zip.6af/tilesets/TX Plant.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/ee157b35-6db8-4472-ac6c-11d839cf16af_tile map.zip.6af/tilesets/TX Props.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/ee157b35-6db8-4472-ac6c-11d839cf16af_tile map.zip.6af/tilesets/TX Struct.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/ee157b35-6db8-4472-ac6c-11d839cf16af_tile map.zip.6af/tilesets/TX Tileset Grass.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/ee157b35-6db8-4472-ac6c-11d839cf16af_tile map.zip.6af/tilesets/TX Tileset Stone Ground.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/ee157b35-6db8-4472-ac6c-11d839cf16af_tile map.zip.6af/tilesets/TX Tileset Wall.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/ee157b35-6db8-4472-ac6c-11d839cf16af_tile map.zip.6af/untitled.tmx": {
+            "scale": 0.1864375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1601.072745558163,
+                "y": 2083.8082467314784
+            }
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/f32417c1-3c61-42f4-b7c8-5771c59e04fd_tile map[1].zip.4fd/tilesets/TX Plant.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/f32417c1-3c61-42f4-b7c8-5771c59e04fd_tile map[1].zip.4fd/tilesets/TX Props.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/f32417c1-3c61-42f4-b7c8-5771c59e04fd_tile map[1].zip.4fd/tilesets/TX Struct.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/f32417c1-3c61-42f4-b7c8-5771c59e04fd_tile map[1].zip.4fd/tilesets/TX Tileset Grass.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/f32417c1-3c61-42f4-b7c8-5771c59e04fd_tile map[1].zip.4fd/tilesets/TX Tileset Stone Ground.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/f32417c1-3c61-42f4-b7c8-5771c59e04fd_tile map[1].zip.4fd/tilesets/TX Tileset Wall.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/Mukesh/AppData/Local/Temp/f32417c1-3c61-42f4-b7c8-5771c59e04fd_tile map[1].zip.4fd/untitled.tmx": {
+            "scale": 0.1864375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1601.072745558163,
+                "y": 1601.0727455581632
+            }
+        },
+        "tilesets/TX Plant.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tilesets/TX Props.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tilesets/TX Shadow.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tilesets/TX Struct.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tilesets/TX Tileset Grass.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tilesets/TX Tileset Stone Ground.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "tilesets/TX Tileset Wall.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "untitled.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 1446,
+                "y": 1922
+            }
+        }
+    },
+    "last.imagePath": "C:/Project/Tiled/tilesets/t1",
+    "map.height": 100,
+    "map.lastUsedFormat": "tmx",
+    "map.width": 100,
+    "openFiles": [
+        "tilesets/TX Tileset Grass.tsx",
+        "tilesets/TX Tileset Stone Ground.tsx",
+        "tilesets/TX Tileset Wall.tsx",
+        "tilesets/TX Struct.tsx",
+        "tilesets/TX Shadow.tsx",
+        "tilesets/TX Props.tsx",
+        "tilesets/TX Plant.tsx",
+        "untitled.tmx"
+    ],
+    "project": "map.tiled-project",
+    "recentFiles": [
+        "C:/Users/Mukesh/AppData/Local/Temp/f32417c1-3c61-42f4-b7c8-5771c59e04fd_tile map[1].zip.4fd/untitled.tmx",
+        "C:/Users/Mukesh/AppData/Local/Temp/b2c3b392-d96e-41e3-a1b7-4572d25001c5_tile map[1].zip.1c5/untitled.tmx",
+        "C:/Users/Mukesh/AppData/Local/Temp/ee157b35-6db8-4472-ac6c-11d839cf16af_tile map.zip.6af/untitled.tmx",
+        "tilesets/TX Tileset Grass.tsx",
+        "tilesets/TX Tileset Stone Ground.tsx",
+        "tilesets/TX Tileset Wall.tsx",
+        "tilesets/TX Struct.tsx",
+        "tilesets/TX Shadow.tsx",
+        "tilesets/TX Props.tsx",
+        "tilesets/TX Plant.tsx",
+        "untitled.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}

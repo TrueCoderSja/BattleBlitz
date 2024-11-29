@@ -1,0 +1,9 @@
+{
+    "width":50,
+    "height":50,
+    "speed":0.5,
+    "tilewidth":32,
+    "tileheight": 32,
+    "playerWidth": 32,
+    "playerHeight": 32
+}

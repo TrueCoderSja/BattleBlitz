@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilemap Upload</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .upload-container {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 400px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .form-group textarea {
+            resize: none;
+            height: 80px;
+        }
+        .btn-upload {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn-upload:hover {
+            background-color: #45a049;
+        }
+        .success-message {
+            text-align: center;
+            color: green;
+            margin-top: 15px;
+        }
+        .error-message {
+            text-align: center;
+            color: red;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="upload-container">
+        <h2>Upload Tilemap</h2>
+        <form id="uploadForm">
+            <div class="form-group">
+                <label for="mapName">Map Name</label>
+                <input type="text" id="mapName" name="mapName" placeholder="Enter the map name" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description" name="description" placeholder="Enter a short description" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="tilemapFile">Tilemap (ZIP File)</label>
+                <input type="file" id="tilemapFile" name="tilemapFile" accept=".zip" required>
+            </div>
+            <div class="form-group">
+                <label for="thumbnailFile">Thumbnail (Image File)</label>
+                <input type="file" id="thumbnailFile" name="thumbnailFile" accept="image/*" required>
+            </div>
+            <button type="submit" class="btn-upload">Upload</button>
+            <p class="success-message" id="successMessage" style="display: none;">File uploaded successfully!</p>
+            <p class="error-message" id="errorMessage" style="display: none;">Error uploading file. Please try again.</p>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+            e.preventDefault(); // Prevent the default form submission
+
+            const formData = new FormData();
+            formData.append('mapName', document.getElementById('mapName').value);
+            formData.append('description', document.getElementById('description').value);
+            formData.append('tilemapFile', document.getElementById('tilemapFile').files[0]);
+            formData.append('thumbnailFile', document.getElementById('thumbnailFile').files[0]);
+
+            try {
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    document.getElementById('successMessage').style.display = 'block';
+                    document.getElementById('errorMessage').style.display = 'none';
+                } else {
+                    throw new Error('Upload failed');
+                }
+            } catch (error) {
+                document.getElementById('successMessage').style.display = 'none';
+                document.getElementById('errorMessage').style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Client/venv/
+Client/__pycache__/
+Server/bkp/
+Server/node_modules/

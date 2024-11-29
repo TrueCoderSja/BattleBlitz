@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Grass Park",
+    "description": "Grass park theme map with elegant visuals",
+    "archivePath": "maps\\archived\\1732565388172-548770859.zip",
+    "extractedPath": "maps\\extracted\\grassPark",
+    "speed": 10,
+    "uploadedAt": "2024-11-25T20:09:48.184Z",
+    "thumbnailPath": "maps\\archived\\1732565388179-254688510.png"
+  },
+  {
+    "name":"Cave",
+    "description": "An underground cave",
+    "archivePath": "\\maps\\archived\\cave.zip",
+    "extractedPath": "\\maps\\extracted\\cave",
+    "speed": 10,
+    "thumbnailPath": "\\maps\\archived\\cave.png"
+  }
+]

@@ -1,0 +1,56 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "test.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "efte.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "t1/map.tmx": {
+            "scale": 0.2838125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 801.5855538427659,
+                "y": 801.5855538427659
+            }
+        },
+        "test.tmx": {
+            "scale": 1,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 786.5,
+                "y": 254.5
+            }
+        },
+        "tileset1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/TrueC/MyProjects/CSET101_SEM1_PROJECT/extras/Tilemaps/test",
+    "map.height": 50,
+    "map.lastUsedFormat": "tmx",
+    "map.width": 50,
+    "openFiles": [
+        "tileset1.tsx",
+        "test.tmx"
+    ],
+    "project": "test.tiled-project",
+    "recentFiles": [
+        "tileset1.tsx",
+        "test.tmx",
+        "t1/map.tmx",
+        "efte.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    }
+}
